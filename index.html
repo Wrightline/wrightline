@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wrightline</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f7f3ea;
+      color: #2b2b2b;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    .nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #f7f3ea;
+      padding: 1rem 2rem;
+      text-align: right;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      z-index: 1000;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #2b2b2b;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f7f3ea;
+      text-align: center;
+      padding-top: 4rem;
+    }
+    .hero img {
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .content {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    .contact {
+      font-weight: bold;
+    }
+    .contact-top-button {
+      margin-top: 6rem;
+      text-align: center;
+    }
+    .contact-top-button a {
+      background-color: #2b2b2b;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .contact-top-button a:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-top-button">
+    <a href="#form">Contact Us</a>
+  </div>
+
+  <div class="hero">
+    <img src="wrightline-logo-earthtone.png" alt="Wrightline Logo">
+  </div>
+
+  <div class="content">
+    <div class="section">
+      <p><strong>We offer custom cabinetry and millwork for both residential and commercial projects.</strong></p>
+    </div>
+
+    <div class="section">
+      <p><strong>Wrightline is a cabinetry company built on the idea that true craftsmanship shouldn't cost a fortune.</strong> We’ve combined over 20 years of hands-on experience with a smart, streamlined process to bring you real custom-quality cabinets—without the inflated price tag.</p>
+    </div>
+
+    <div class="section">
+      <p>We don’t waste money on unnecessary frills like flashy showrooms or elaborate websites. Every dollar we save goes directly into what matters most: materials, craftsmanship, and customer value.</p>
+    </div>
+
+    <div class="section">
+      <p>Wrightline is about honest work, smarter design, and lasting quality. If you're looking for clean, modern cabinetry that's built the right way—and priced the smart way—we'd love to talk.</p>
+    </div>
+
+    <div class="section contact" id="contact">
+      <p><strong>Contact</strong></p>
+      <p>👤 Thomas Porta</p>
+      <p>📞 <a href="tel:+1XXXXXXXXXX">[Phone Number]</a></p>
+      <p>✉️ <a href="mailto:wrightlineny@gmail.com">wrightlineny@gmail.com</a></p>
+      <p>📸 <a href="https://www.instagram.com/yourhandle" target="_blank">Instagram</a></p>
+      <p>📘 <a href="https://www.facebook.com/yourpage" target="_blank">Facebook</a></p>
+    </div>
+
+    <div class="section" id="form">
+      <h2>Send Us a Message</h2>
+      <form action="mailto:wrightlineny@gmail.com" method="post" enctype="text/plain">
+        <p><label>Name:<br><input type="text" name="name" required style="width: 100%; padding: 0.5rem;"></label></p>
+        <p><label>Email:<br><input type="email" name="email" required style="width: 100%; padding: 0.5rem;"></label></p>
+        <p><label>Message:<br><textarea name="message" rows="5" required style="width: 100%; padding: 0.5rem;"></textarea></label></p>
+        <p><button type="submit" style="background-color: #2b2b2b; color: #fff; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">Send</button></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Wrightline. All rights reserved.
+  </div>
+</body>
+</html>
